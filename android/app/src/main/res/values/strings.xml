@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">I-Dely</string>
+
+
+        <string name="facebook_app_id">352198013136174</string>
+    <string name="facebook_client_token">d00a5d50fbc9b0a8f56fc388d65cfefd</string>
+      <string name="fb_login_protocol_scheme">fb352198013136174</string>
+</resources>
