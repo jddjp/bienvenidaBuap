@@ -1,3 +1,4 @@
+import 'package:bienvenida_buap/views/drawer_view.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -9,8 +10,17 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        drawer: DrawerView(),
         appBar: AppBar(
-          title: Text('Material App Bar'),
+          actions: <Widget>[
+            Image.asset('assets/images/logobuap.png', fit: BoxFit.cover),
+          ],
+
+          //centerTitle: true,
+
+          // title: Image.asset('assets/images/logobuap.png', fit: BoxFit.cover),
+          backgroundColor: Colors.white,
+          elevation: 0.0,
         ),
         body: Center(
           child: Container(
